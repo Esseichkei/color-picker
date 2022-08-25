@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <title>Color Picker</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="assets/icon.svg"> Color Picker
+        </header>
+        <div id="colors">
+            <div id="color1" class="colordiv">
+                <div id="color1outline" class="coloroutline" onclick="focuscolor(1)">
+                    <div id="color1inside" class="colorinside">
+                        <div id="color1nocolor" class="colornocolor">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="color2" class="colordiv">
+                <div id="color2outline" class="coloroutline" onclick="focuscolor(2)">
+                    <div id="color2inside" class="colorinside">
+                        <div id="color2nocolor" class="colornocolor">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="color3" class="colordiv">
+                <div id="color3outline" class="coloroutline" onclick="focuscolor(3)">
+                    <div id="color3inside" class="colorinside">
+                        <div id="color3nocolor" class="colornocolor">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="color4" class="colordiv">
+                <div id="color4outline" class="coloroutline" onclick="focuscolor(4)">
+                    <div id="color4inside" class="colorinside">
+                        <div id="color4nocolor" class="colornocolor">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="color5" class="colordiv">
+                <div id="color5outline" class="coloroutline" onclick="focuscolor(5)">
+                    <div id="color5inside" class="colorinside">
+                        <div id="color5nocolor" class="colornocolor">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="controls">
+            <div id="picker">
+
+            </div>
+            <div id="name_picker">
+                <div id="name_field_div">
+                    Name<br>
+                    <input type="text" id="pname" name="pname">
+                </div>
+                <button id="name_button">+</button>
+            </div>
+        </div>
+        <div id="palettes">
+            <div id="palette_title">Saved Palettes</div>
+            <div id="pal1" class="pal">
+                <div class="paloutline">
+                    <div id="pal1col1" class="palcol"></div>
+                </div>
+                <div class="paloutline">
+                    <div id="pal1col2" class="palcol"></div>
+                </div>
+                <div class="paloutline">
+                    <div id="pal1col3" class="palcol"></div>
+                </div>
+                <div class="paloutline">
+                    <div id="pal1col4" class="palcol"></div>
+                </div>
+                <div class="paloutline">
+                    <div id="pal1col5" class="palcol"></div>
+                </div>
+                <button id="pal1but">X</button>
+            </div>
+        </div>
+    </body>
+</html>
